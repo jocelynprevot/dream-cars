@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dream cars</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#121212">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  html, body { margin:0; height:100%; background:#121212; overflow:hidden; }
+  iframe { border:0; width:100%; height:100vh; height:100dvh; display:block; background:#121212; }
+</style>
+</head>
+<body>
+<!-- This page only shows the Dream cars app full screen, so it can be added to the phone's home screen. -->
+<iframe src="https://script.google.com/macros/s/AKfycbwi9VwgNJf2kf2Y-Jt0BKXW0pi0rdBPWMlTfTIKlk-QwQzFFOpK_E3cBmS8EhBEESyrMg/exec" title="Dream cars" allow="clipboard-write"></iframe>
+<script>
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function () {});
+</script>
+</body>
+</html>
